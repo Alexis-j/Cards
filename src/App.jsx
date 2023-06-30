@@ -11,7 +11,7 @@ export default function App() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
+        height: "100vh", // Asegúrate de que el contenedor tenga una altura definida
       }}
     >
       <Pizza />
@@ -19,3 +19,4 @@ export default function App() {
       <Postcard />
     </Container>
   );
+}
